@@ -33,3 +33,9 @@ end
 def add_string_as_number(string_num1, string_num2)
   return string_num1.to_i + string_num2.to_i
 end
+
+def number_to_full_month_name(x)
+  if (x == 1)
+    return "January"
+  end
+end
