@@ -48,7 +48,15 @@ def number_to_full_month_name(x)
       return "January"
     when 3
       return "March"
+    when 4
+      return "April"
     when 9
       return "September"
+    when 10
+      return "October"
     end
+end
+
+def number_to_short_month_name(x)
+  return number_to_full_month_name(x)[0, 3]
 end
